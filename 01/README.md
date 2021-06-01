@@ -1,10 +1,11 @@
-# [![](../assets/img/logo-readme2.jpg)](https://devmentor.pl) &nbsp; React: Styling #01
-
-> :loudspeaker: Jeśli chciałbyś więcej tego typu zadań to zapraszam do :moneybag: [wsparcia mojego konta](https://github.com/sponsors/devmentor-pl)!
+> :star: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s2e05-react-styling` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/)). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
 
 &nbsp;
 
-Twoim zadaniem jest przygotować komponent `<Alert>`, który ma wyglądać podobnie do tego z [Boostrap-a](https://react-bootstrap.github.io/components/alerts/).
+# `#01` React: Stylowanie
+
+
+Twoim zadaniem jest przygotować komponent `<Alert>`, który ma wyglądać podobnie do tego z [Boostrapa](https://react-bootstrap.github.io/components/alerts/).
 
 W zależności od wartości *props* o nazwie `variant` element ma być renderowany z innym tłem.
 
@@ -21,6 +22,8 @@ W tym pliku importujemy komponenty z React Boostrap oraz nasz komponent stworzon
 
 PS. Koncepcji na budowanie struktur plików jest wiele. To zazwyczaj zespół wspólnie decyduje jak ma ona wyglądać. Zwróć uwagę np. na komponent `<Button>` w [Atlassian](https://bitbucket.org/atlassian/atlaskit-mk-2/src/989a29f0e5b9341042be354686c9ac0f9d77215e/packages/core/button/src/?at=master).
 
+
 &nbsp;
 
-> :warning: Jeśli nie posiadasz materiałów do tego zadania to znajdziesz je na stronie [devmentor.pl](https://devmentor.pl)
+
+> :arrow_left: ~~*poprzednie zadanie*~~ | [*następne zadanie*](./../02) :arrow_right:
