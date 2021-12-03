@@ -5,15 +5,15 @@
 # `#02` React: Stylowanie
 
 
-Tym razem będziesz miał do stworzenia komponent `<Button>` z [React Boostrap](https://react-bootstrap.github.io/components/buttons/);
+Tym razem będziesz miał do stworzenia komponent `<Button>` na wzór tego z [React Boostrap](https://react-bootstrap.github.io/components/buttons/).
 
-Wystarczy, że Twój komponent będzie obsługiwał opcje:
+Wystarczy, że będzie on obsługiwał opcje:
 * variant
 * size
 * active
-* disabled
+* disabled.
 
-W tym przypadku również mile widziane rozwiązanie z `<ThemeProvider>`.
+W tym przypadku również mile widziane jest rozwiązanie z `<ThemeProvider>`.
 
 Pamiętaj, aby pliki źródłowe przechowywać w lokalizacji `./src/components/Button` i wykorzystać je w `./02/Task02.js`.
 
