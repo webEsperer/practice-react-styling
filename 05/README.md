@@ -5,15 +5,15 @@
 # `#05` React: Stylowanie
 
 
-Nadszedł czas na stworzenie bardziej rozbudowanego elementu, jakim niewątpliwie jest komponent `<Card>`, który składa się z mniejszych elementów tj.:
+Nadszedł czas na stworzenie bardziej rozbudowanego elementu, jakim niewątpliwie jest komponent `<Card>`, który składa się z mniejszych elementów, tj.:
 * `<Card.Img>`
-* `<Card.Body`
+* `<Card.Body>`
 * `<Card.Title>`
-* `<Card.Text>`
+* `<Card.Text>`.
 
-Zwróć uwagę, że w przykładzie jest wykorzystany `<Button>`, który Ty już stworzyłeś przy zadaniu drugim.
+Zwróć uwagę, że w przykładzie jest wykorzystany `<Button>`, który już stworzyłeś w zadaniu drugim.
 
-Znów Twoim zadaniem będzie opracowanie wygodnej i elastycznej struktury plików w katalogu `./src/components`, które wykorzystasz w `./05/Task05.js`.
+Ponownie w katalogu `./src/components` opracuj wygodną i elastyczną strukturę plików, które wykorzystasz w `./05/Task05.js`.
 
 &nbsp;
 
