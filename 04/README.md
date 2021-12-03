@@ -5,13 +5,13 @@
 # `#04` React: Stylowanie
 
 
-Tym razem naszym zadaniem jest stworzenie komponentów `<Tabs>` oraz `<Tab>`, których przykład działania znajdziesz w dokumentaci [React Boostrap](https://react-bootstrap.github.io/components/tabs/).
+Tym razem Twoim zadaniem jest stworzenie komponentów `<Tabs>` oraz `<Tab>`, których przykład działania znajdziesz w [dokumentacji React Boostrap](https://react-bootstrap.github.io/components/tabs/).
 
-Wystarczy, że Twoje rozwiązanie pozwoli definiować dowolną ilość zakładek. Po kliknięciu w którąś z nich zostanie przełączona treść przypisana do wybranej zakładki.
+Wystarczy, że Twoje rozwiązanie pozwoli definiować dowolną ilość zakładek. Po kliknięciu w którąś z nich zostanie podmieniona treść – na tą przypisaną do wybranej zakładki.
 
-Zapewne w komponencie `<Tabs>` będzie trzeba zdefiniować `state`, który będzie określał aktywną zakładkę.
+Zapewne w komponencie `<Tabs>` trzeba utworzyć `state`, który będzie określał aktywną zakładkę.
 
-Pamiętaj o zdefiniowaniu odpowiedniej struktury plików w `./src/components`, które wykorzystasz w `./04/Task04.js`.
+Pamiętaj o zdefiniowaniu w `./src/components` odpowiedniej struktury plików, które wykorzystasz w `./04/Task04.js`.
 
 &nbsp;
 
