@@ -18,6 +18,8 @@ module.exports = function(env = {}) {
         devtool: isProd ? 
             'none' : 'eval-cheap-module-source-map',
         // definiuje identyfikację kodu źródłowego
+        target: 'web',
+        // definiuję przeznaczenie generowanych plików
         output: {
             path: path.resolve(__dirname, 'build'),
             // definiuje ścieżką wyjściową
