@@ -1,20 +1,20 @@
-# [![](../assets/img/logo-readme2.jpg)](https://devmentor.pl) &nbsp; React: Styling #03
-
-> :loudspeaker: Jeśli chciałbyś więcej tego typu zadań to zapraszam do :moneybag: [wsparcia mojego konta](https://github.com/sponsors/devmentor-pl)!
+> :star: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s2e05-react-styling` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/)). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
 
 &nbsp;
 
-Kolejnym komponentem z [React Boostrap](https://react-bootstrap.github.io/components/breadcrumb/) jest `<Breadcrumb>`, który wykorzystuje dodatkowo `<Breadcrumb.Item>`, co umożliwia tworzenie tzw. okruchów chleba.
+# `#03` React: Stylowanie
+
+Kolejnym komponentem z [React Boostrap](https://react-bootstrap.github.io/components/breadcrumb/) jest `<Breadcrumb>`, który wykorzystuje dodatkowo `<Breadcrumb.Item>`, co umożliwia tworzenie tzw. [okruszków chleba](https://pl.wikipedia.org/wiki/Okruszki_chleba_%28nawigacja%29).
 
 Wystarczy, że Twój komponent `<Breadcrumb.Item>` będzie wspierał opcje:
 * href
-* active
+* active.
 
-Zwróć uwagę, ze React Boostrap w [swoich źródłach](https://github.com/react-bootstrap/react-bootstrap/tree/master/src) ma komponenty w osobnych plikach tj. `Breadcrumb.tsx` (rozszerzenie `.tsx` oznacza, że deweloperzy wykorzystują [TypeScript](https://pl.wikipedia.org/wiki/TypeScript)) oraz `BreadcrumbItem.tsx`, a dopiero przy eksporcie ([koniec pliku](https://github.com/react-bootstrap/react-bootstrap/blob/master/src/Breadcrumb.tsx)) dołącza do właściwości `Breadcrumb.Item` importowany komponent `BreadcrumbItem` (`Breadcrumb.Item = BreadcrumbItem`). Możesz zrobić podobnie.
+Zwróć uwagę, że React Boostrap w [swoich źródłach](https://github.com/react-bootstrap/react-bootstrap/tree/master/src) ma komponenty w osobnych plikach, np. `Breadcrumb.tsx` (rozszerzenie `.tsx` oznacza, że deweloperzy wykorzystują [TypeScript](https://pl.wikipedia.org/wiki/TypeScript)) oraz `BreadcrumbItem.tsx`, a dopiero przy eksporcie ([koniec pliku](https://github.com/react-bootstrap/react-bootstrap/blob/master/src/Breadcrumb.tsx)) dołącza do właściwości `Breadcrumb.Item` importowany komponent `BreadcrumbItem` (`Breadcrumb.Item = BreadcrumbItem`). Możesz zrobić podobnie.
 
-Tym razem sam stwórz wygodną dla siebie strukturę plików w lokalizacji `./src/components/Breadcrumb` i wykorzystaj ją w `./03/Task3.js`.
+Tym razem sam stwórz wygodną dla siebie strukturę plików w lokalizacji `./src/components/Breadcrumb` i wykorzystaj ją w `./03/Task03.js`.
 
 &nbsp;
 
-> :warning: Jeśli nie posiadasz materiałów do tego zadania to znajdziesz je na stronie [devmentor.pl](https://devmentor.pl)
 
+> :arrow_left: [*poprzednie zadanie*](./../02) | [*następne zadanie*](./../04) :arrow_right:
