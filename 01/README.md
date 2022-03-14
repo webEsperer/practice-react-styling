@@ -5,7 +5,7 @@
 # `#01` React: Stylowanie
 
 
-Twoim zadaniem jest przygotować komponent `<Alert>`, który ma wyglądać podobnie do tego z [Boostrapa](https://react-bootstrap.github.io/components/alerts/).
+Twoim zadaniem jest przygotować komponent `<Alert>`, który ma wyglądać podobnie do tego z [Bootstrapa](https://react-bootstrap.github.io/components/alerts/).
 
 W zależności od wartości *props* o nazwie `variant` element ma być renderowany z innym tłem.
 
