@@ -13,6 +13,8 @@ Wystarczy, że będzie on obsługiwał opcje:
 * active
 * disabled.
 
+Tutaj ponownie nie musisz tworzyć styli dla wszystkich wariantów, wystarczą dwa wybrane (np. _primary_ i _secondary_).
+
 W tym przypadku również mile widziane jest rozwiązanie z `<ThemeProvider>`.
 
 Pamiętaj, aby pliki źródłowe przechowywać w lokalizacji `./src/components/Button` i wykorzystać je w `./02/Task02.js`.
