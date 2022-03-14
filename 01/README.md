@@ -7,7 +7,7 @@
 
 Twoim zadaniem jest przygotować komponent `<Alert>`, który ma wyglądać podobnie do tego z [Bootstrapa](https://react-bootstrap.github.io/components/alerts/).
 
-W zależności od wartości *props* o nazwie `variant` element ma być renderowany z innym tłem.
+W zależności od wartości *props* o nazwie `variant` element ma być renderowany z innym tłem. Nie musisz tworzyć styli dla wszystkich wariantów, wystarczą dwa wybrane (np. _primary_ i _secondary_).
 
 Idealnie, gdyby zestaw kolorów można było definiować przy pomocy [ThemeProvidera](https://styled-components.com/docs/advanced#theming). Jeśli mamy zdefiniowany motyw, to kolory są pobierane za jego pośrednictwem. W przeciwnym razie wykorzystywane są te standardowe (domyślne).
 
