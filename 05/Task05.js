@@ -25,5 +25,5 @@ const Task05 = () => {
     )
 }
 
-export default Task04;
+export default Task05;
 
