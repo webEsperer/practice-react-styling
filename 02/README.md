@@ -5,7 +5,7 @@
 # `#02` React: Stylowanie
 
 
-Tym razem będziesz miał do stworzenia komponent `<Button>` na wzór tego z [React Boostrap](https://react-bootstrap.github.io/components/buttons/).
+Tym razem będziesz miał do stworzenia komponent `<Button>` na wzór tego z [React Boostrap](https://react-bootstrap.github.io/docs/components/buttons/).
 
 Wystarczy, że będzie on obsługiwał opcje:
 * variant
