@@ -4,7 +4,7 @@
 
 # `#03` React: Stylowanie
 
-Kolejnym komponentem z [React Boostrap](https://react-bootstrap.github.io/components/breadcrumb/) jest `<Breadcrumb>`, który wykorzystuje dodatkowo `<Breadcrumb.Item>`, co umożliwia tworzenie tzw. [okruszków chleba](https://pl.wikipedia.org/wiki/Okruszki_chleba_%28nawigacja%29).
+Kolejnym komponentem z [React Boostrap](https://react-bootstrap.github.io/docs/components/breadcrumb/) jest `<Breadcrumb>`, który wykorzystuje dodatkowo `<Breadcrumb.Item>`, co umożliwia tworzenie tzw. [okruszków chleba](https://pl.wikipedia.org/wiki/Okruszki_chleba_%28nawigacja%29).
 
 Wystarczy, że Twój komponent `<Breadcrumb.Item>` będzie wspierał opcje:
 * href
