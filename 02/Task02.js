@@ -4,15 +4,17 @@ import { Button } from "./../src/components/Button";
 import { Row, Col, Button as RBButton } from "react-bootstrap";
 
 const Task02 = () => {
+  // const isActive = true;
+  // const isDisabled = false;
   return (
     <Row>
       <Col>
-        <RBButton variant="primary" size="lg">
+        <RBButton variant="secondary" size="lg" active>
           Button!
         </RBButton>
       </Col>
       <Col>
-        <Button variant="primary" size="lg">
+        <Button variant="secondary" size="lg">
           Button!
         </Button>
       </Col>

@@ -27,11 +27,43 @@ const themeVariants = {
         color: #fff;
         background-color: #007bff;
         border-color: #007bff;
+        &:hover {
+          color: #fff;
+          background-color: #0069d9;
+          border-color: #0062cc;
+        }
+        &:active {
+          color: #fff;
+          background-color: #0062cc;
+          border-color: #005cbf;
+        }
+        &:disabled {
+          opacity: 0.65;
+          background-color: #007bff;
+          color: #fff;
+          border-color: #007bff;
+        }
       `,
       secondary: css`
         color: #fff;
         background-color: #6c757d;
         border-color: #6c757d;
+        &:hover {
+          color: #fff;
+          background-color: #5a6268;
+          border-color: #545b62;
+        }
+        &:active {
+          color: #fff;
+          background-color: #545b62;
+          border-color: #4e555b;
+        }
+        &:disabled {
+          opacity: 0.65;
+          color: #fff;
+          background-color: #6c757d;
+          border-color: #6c757d;
+        }
       `,
     },
     size: {
