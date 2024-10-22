@@ -9,16 +9,40 @@ import Task04 from './../../04/Task04';
 import Task05 from './../../05/Task05';
 
 const themeVariants = {
-  primary: css`
-    color: #004085;
-    background-color: #cce5ff;
-    border-color: #b8daff;
-  `,
-  secondary: css`
-    color: #383d41;
-    background-color: #e2e3e5;
-    border-color: #d6d8db;
-  `,
+  alert: {
+    primary: css`
+      color: #004085;
+      background-color: #cce5ff;
+      border-color: #b8daff;
+    `,
+    secondary: css`
+      color: #383d41;
+      background-color: #e2e3e5;
+      border-color: #d6d8db;
+    `,
+  },
+  button: {
+    variant: {
+      primary: css`
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+      `,
+      secondary: css`
+        color: #fff;
+        background-color: #6c757d;
+        border-color: #6c757d;
+      `,
+    },
+    size: {
+      lg: css`
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: 0.3rem;
+      `,
+    },
+  },
 };
 
 const App = () => {

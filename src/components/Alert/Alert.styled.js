@@ -9,7 +9,7 @@ const DefaultStyledAlert = styled.div`
 `;
 
 const StyledAlert = styled(DefaultStyledAlert)(
-  ({ theme, variant }) => theme[variant]
+  ({ theme: { alert }, variant }) => alert[variant]
 );
 
 export { StyledAlert };
