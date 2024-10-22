@@ -17,28 +17,6 @@ const DefaultStyledButton = styled.button`
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-
-  /* &:disabled {
-    opacity: 0.65;
-    &:hover {
-      background-color: unset;
-      border-color: unset;
-      color: unset;
-    } */
-  }
-
- 
-  ${({ disabled, theme }) => disabled && theme.button.isActive.disabled}
-
-  ${({ active }) =>
-    active &&
-    `
-        &:hover {
-            background-color: unset;
-            border-color: unset;
-            color: unset;
-        }
-    `}
 `;
 
 const VariantStyledButton = styled(DefaultStyledButton)(
@@ -52,17 +30,6 @@ const SizeStyledButton = styled(VariantStyledButton)(
     return button.size[size];
   }
 );
-
-// const ActiveStyledButton = styled(SizeStyledButton)(
-//   ({ theme: { button }, active, disabled }) => {
-//     if (active) {
-//       return button.isActive[active];
-//     } else if (disabled) {
-//       return button.isActive[disabled];
-//     }
-//     return;
-//   }
-// );
 
 const StyledButton = SizeStyledButton;
 
